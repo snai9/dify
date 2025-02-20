@@ -58,7 +58,7 @@ docker compose up -d
 ```bash
 netstat -ano | findstr :8080
 ```
-- 通过浏览器打开:http://127.0.0.1:8080打开dify
+- 通过浏览器打开dify:http://127.0.0.1:8080
 
 # 更新dify
 - 进入dify源代码的docker目录，按顺序执行以下命令：：
