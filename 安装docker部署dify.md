@@ -105,7 +105,7 @@ Deno.serve(async (request) => {
 https://api.groq.com/openai/v1， 这个接口写法也应该在Groq上查看文档。
 - 保存后可以使用了
   ## 补充一下也可以把欧派算力中的模型部署到dify
-    - https://ppinfra.com/model-api/console这里是所有支持的模型
+    - https://ppinfra.com/model-api/console 这里是所有支持的模型
     - 点开模型后有这个模型的名称和接口，例如：
     ``` 
 
