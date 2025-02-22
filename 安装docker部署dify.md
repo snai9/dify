@@ -58,7 +58,7 @@ docker compose up -d
 ```bash
 netstat -ano | findstr :8080
 ```
-- 通过浏览器打开:http://127.0.0.1:8080打开dify
+- 通过浏览器打开dify：http://127.0.0.1:8080
 
 # 更新dify
 - 进入dify源代码的docker目录，按顺序执行以下命令：：
@@ -72,12 +72,12 @@ docker compose up -d
 ```
 
 # 白嫖Groq平台算力
-- 访问地址https://groq.com/，可以查询支持的模型名称
-- 在https://console.groq.com/keys申请APIKEY
+- 访问地址：https://groq.com/ ，可以查询支持的模型名称
+- 在https://console.groq.com/keys 申请APIKEY
 
 # Deno实现代理
 - 访问 https://dash.deno.com
-- 点击 右上角“new  playground”，进入发布页面
+- 点击 右上角**new  playground**，进入发布页面
 - 将左边的服务代码修改为以下代码：
 ```ts
 const OPENAI_API_HOST = "api.groq.com";//API基础地址
@@ -97,7 +97,7 @@ Deno.serve(async (request) => {
 ```
 
 - 类型设置为TS后保存并发布
-- 右边的输出可以看到生成的二级域名，例如：https://clean-wasp-20.deno.dev，这个就是代理的代码中的API基础地址，比如 https://clean-wasp-20.deno.dev 其实是 https://api.groq.com
+- 右边的输出可以看到生成的二级域名，例如：https://clean-wasp-20.deno.dev ，这个就是代理的代码中的API基础地址，比如： https://clean-wasp-20.deno.dev 其实是 https://api.groq.com
 - 在dify的模型供应商中如果不能科学上网的话，是不能直接选择**gropcloud**的，所以我们需要选择兼容 **openAI-API-compatible**
 - 模型名称在Groq中查询后填写支持模型的全称，如：**DeepSeek-R1-Distill-Llama-70B**
 - API Key就是上面Groq平台API-KEY 申请的KEY，例如：**gsk_TN7oCE5eJBTB9HTedek3WGdyb3FYzdKsF4QL591qA9DKHClGsWV**
@@ -105,7 +105,7 @@ Deno.serve(async (request) => {
 https://api.groq.com/openai/v1， 这个接口写法也应该在Groq上查看文档。
 - 保存后可以使用了
   ## 补充一下也可以把欧派算力中的模型部署到dify
-    - https://ppinfra.com/model-api/console 这里是所有支持的模型
+    - https://ppinfra.com/model-api/console这里是所有支持的模型
     - 点开模型后有这个模型的名称和接口，例如：
     ``` 
 
