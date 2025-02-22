@@ -121,5 +121,5 @@ https://api.groq.com/openai/v1， 这个接口写法也应该在Groq上查看文
 # 知识库模型
 - 先通过 https://jina.ai/reader /拿到免费的APIKEY，如**jina_2bd1b6a107b64f31b45f98e4f05ed597hub6-yojR7OjP6QXWahAGaCstkgH**
 - 在dify中选择同步自web站点，把jina的API输入后直接输入知识网址生成markdown
-- 要保证更好的效果还要添加嵌入模型，也可以使用jina，同样是输入APIKEY就行
+- 要保证更好的效果还要添加嵌入模型，也可以在模型供应商中使用jina，同样是输入APIKEY就行
 
