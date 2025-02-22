@@ -116,6 +116,7 @@ https://api.groq.com/openai/v1， 这个接口写法也应该在Groq上查看文
       API Key：  sk_6z3UrHfqjZKgBxM1164yFl1XMxWasm9v5Ygw5AeT71p  
     ```
     - 同样也是要在**openAI-API-compatible**中添加模型
+    - 其实欧派算力真的很贴心，好多工具都有详细的说明：https://ppinfra.com/docs/model-api/third-party/overview.html
 
 
 # 知识库模型
